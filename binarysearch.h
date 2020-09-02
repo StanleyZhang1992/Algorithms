@@ -1,7 +1,7 @@
 #pragma once
 #include<vector>
 
-// binary search algorithm
+// classic binary search algorithm
 int binarySearch(std::vector<int>& nums, int target) {
 	// edge case
 	if (nums.size() == 0)
